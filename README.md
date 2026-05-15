@@ -5,6 +5,9 @@ This repository provides a comprehensive pipeline for detecting anomalies in his
 ## Project Overview
 Detection of cancerous tissues in high-resolution medical imagery typically requires large labeled datasets. This project implements a Vision-Language Model (VLM) alignment strategy to perform anomaly detection by comparing image patches against specialized medical descriptions.
 
+![Anomaly Heatmap Overlay](./WSI_Anomaly_Heatmap.png)
+![Anomaly comparison](./Anomalyــcomparison.png)
+
 ## Core Features
 - Full end-to-end pipeline from raw WSI to heatmap visualization.
 - Integration with the CONCH backbone, specifically pre-trained for pathology tasks.
@@ -25,19 +28,8 @@ Detection of cancerous tissues in high-resolution medical imagery typically requ
 - CUDA-enabled GPU (recommended for inference)
 - OpenSlide library
 
-### Setup Instructions
-1. Clone the repository:
-   git clone https://github.com/YourUsername/Pathology-ZeroShot-Anomaly-Detection.git
-   cd Pathology-ZeroShot-Anomaly-Detection
-
-2. Install dependencies:
-   pip install -r requirements.txt
-
-3. Acquire Model Weights:
-   Place the 'pytorch_model.bin' (CONCH) and 're_trained_weights.pth' (Ano-NAViLa) in the project root directory.
-
 ## Usage
-The entire pipeline is available in the provided Jupyter Notebook. It covers:
+The entire pipeline is available in the provided Jupyter Notebook and could be run with Google colab. It covers:
 - Loading the CONCH and Ano-NAViLa architectures.
 - Running patch-level inference on WSI tiles.
 - Generating and saving high-resolution anomaly heatmaps.
