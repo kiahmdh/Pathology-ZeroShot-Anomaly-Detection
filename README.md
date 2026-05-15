@@ -1,3 +1,7 @@
+<img width="3252" height="3036" alt="WSI_Anomaly_Heatmap" src="https://github.com/user-attachments/assets/afba9fea-0dc4-40f6-a9d5-88c04e67be29" />
+<img width="1331" height="581" alt="Anomalyــcomparison" src="https://github.com/user-attachments/assets/c36eb7ac-27fb-4636-9d1d-8c06bc3518ad" />
+<img width="1331" height="581" alt="Anomalyــcomparison" src="https://github.com/user-attachments/assets/e4645306-a442-4ed1-a1a4-86ee940e3559" />
+<img width="3252" height="3036" alt="WSI_Anomaly_Heatmap" src="https://github.com/user-attachments/assets/a14f096f-d6ba-40c9-859a-257a5d6e7597" />
 # Pathology Zero-Shot Anomaly Detection
 ## Implementation of Ano-NAViLa
 This repository provides a comprehensive pipeline for detecting anomalies in histopathology Whole Slide Images (WSIs) using a zero-shot approach. By leveraging the Ano-NAViLa framework and the CONCH vision-language model, this tool identifies metastatic tumor regions without the need for additional training or fine-tuning.
