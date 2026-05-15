@@ -36,8 +36,5 @@ The entire pipeline is available in the provided Jupyter Notebook and could be r
 - Running patch-level inference on WSI tiles.
 - Generating and saving high-resolution anomaly heatmaps.
 
-## Performance and Results
-The framework demonstrates high sensitivity in detecting tumor clusters within lymph node sections. The separation between normal lymphocytes and metastatic carcinoma is clearly visible in the generated anomaly scores.
-
 ## Acknowledgments
 This implementation is based on the research provided by the Mahmood Lab (CONCH) and the QuIIL research group (Ano-NAViLa). We thank the contributors to the Camelyon16 challenge for providing the benchmarking data.
