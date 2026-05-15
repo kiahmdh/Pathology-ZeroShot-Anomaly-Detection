@@ -9,8 +9,9 @@ This repository provides a comprehensive pipeline for detecting anomalies in his
 ## Project Overview
 Detection of cancerous tissues in high-resolution medical imagery typically requires large labeled datasets. This project implements a Vision-Language Model (VLM) alignment strategy to perform anomaly detection by comparing image patches against specialized medical descriptions.
 
-![Anomaly Heatmap Overlay](./WSI_Anomaly_Heatmap.png)
-![Anomaly comparison](./Anomalyــcomparison.png)
+<img width="650" height="290" alt="Anomalyــcomparison" src="https://github.com/user-attachments/assets/e4645306-a442-4ed1-a1a4-86ee940e3559" />
+<img width="1100" height="1000" alt="WSI_Anomaly_Heatmap" src="https://github.com/user-attachments/assets/a14f096f-d6ba-40c9-859a-257a5d6e7597" />
+
 
 ## Core Features
 - Full end-to-end pipeline from raw WSI to heatmap visualization.
