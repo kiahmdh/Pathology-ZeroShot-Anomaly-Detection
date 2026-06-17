@@ -1,4 +1,5 @@
 
+
 # Pathology Zero-Shot Anomaly Detection
 ## Implementation of Ano-NAViLa
 This repository provides a comprehensive pipeline for detecting anomalies in histopathology Whole Slide Images (WSIs) using a zero-shot approach. By leveraging the Ano-NAViLa framework and the CONCH vision-language model, this tool identifies metastatic tumor regions without the need for additional training or fine-tuning.
@@ -6,9 +7,8 @@ This repository provides a comprehensive pipeline for detecting anomalies in his
 ## Project Overview
 Detection of cancerous tissues in high-resolution medical imagery typically requires large labeled datasets. This project implements a Vision-Language Model (VLM) alignment strategy to perform anomaly detection by comparing image patches against specialized medical descriptions.
 
-<img width="650" height="290" alt="Anomalyــcomparison" src="https://github.com/user-attachments/assets/e4645306-a442-4ed1-a1a4-86ee940e3559" />
-<img width="550" height="500" alt="WSI_Anomaly_Heatmap" src="https://github.com/user-attachments/assets/a14f096f-d6ba-40c9-859a-257a5d6e7597" />
-
+<img width="900" height="541" alt="Screenshot 2026-06-18 at 12 17 22 AM" src="https://github.com/user-attachments/assets/0d622162-ec51-453c-acf6-288bcd7a3cf9" />
+<img width="352" height="278" alt="Screenshot 2026-06-18 at 12 17 08 AM" src="https://github.com/user-attachments/assets/cef42a70-8a07-4db0-a002-fddd78128274" />
 
 ## Core Features
 - Full end-to-end pipeline from raw WSI to heatmap visualization.
